@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:16
 RUN apt-get update && \
      apt-get -y install rsync apt-utils && \
      apt-get -y remove apt-utils && \
